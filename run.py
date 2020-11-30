@@ -2,6 +2,7 @@
 from camerafeed import CameraFeed
 from argparse import ArgumentParser
 
+# https://youtu.be/EBhCrTPpdBI
 # make dict from args
 parser = ArgumentParser(description="Camerafeed")
 parser.add_argument('--config_path', dest='config_path', default="settings.ini", help='path to settinsg.ini')

@@ -130,6 +130,8 @@ class CameraFeed:
             while self.camera.isOpened():
 
                 rval, frame = self.camera.read()
+                # cv2.imshow('test',frame)
+                # cv2.waitKey(0)
                 self.process(frame)
 
                 if self.quit_after_first_frame or cv2.waitKey(1) & 0xFF == ord('q'):

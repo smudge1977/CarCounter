@@ -27,7 +27,7 @@ class Tripline:
                  direction_1='north', direction_2='south'):
 
         global line_index
-
+        print('INIT Tripline.....')
         self._collisions = {}
         self._point_1 = point_1
         self._point_2 = point_2
